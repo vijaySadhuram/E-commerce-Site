@@ -2,31 +2,59 @@ body{
     margin:0;
 }
 nav{
-border: 2px solid green;
-height: 3vmax;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+height: 4vmax;
 display: flex;
+align-items: center;
 
 }
 .left{
     width: 20%;
-    border: 2px solid chocolate;
     display: flex;
     justify-content: center;
-    
-    
+
 }
 .left>a{
 text-decoration:none;
 color: crimson;
 font-size: 2vmax;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .middle{
     width: 60%;
-    border: 2px solid salmon;
+   
+ 
+    display: flex;
+    justify-content: space-evenly;
+    
 
+  
+}
+.middle>a{
+    text-decoration:none;
+color: black;
+font-size: 1.4vmax;
+width: 100%;
+display: flex;
+justify-content: center;
+
+
+}
+.middle>a:hover{
+    border-bottom: 2px solid crimson;
+    color: crimson;
+    align-self: stretch;
 }
 .right{
     width: 20%;
-    border: 2px solid red;
+
+    display: flex;
+    justify-content: center;
+}
+.right>img{
+    width: 1.4vmax;
+    display: flex;
+    
+    
 }
